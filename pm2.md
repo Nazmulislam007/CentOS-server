@@ -1,4 +1,4 @@
-##putty
+# Using Putty terminal
 
 install
 ```
