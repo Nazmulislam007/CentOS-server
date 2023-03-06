@@ -30,6 +30,12 @@ This configuration sets up a reverse proxy to forward requests from Apache to yo
 
 Save the file `ctrl X` `Y` `enter` and exit.
 
+Enable the proxy and proxy_http Apache modules:
+```
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+```
+
 Test the configuration:
 ```
 sudo apachectl configtest
